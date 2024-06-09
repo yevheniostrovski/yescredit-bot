@@ -1,0 +1,7 @@
+{
+  "text": "Сообщение 21",
+  "buttons": [
+    { "text": "Хорошо", "callback_data": "good" },
+    { "text": "Плохо", "callback_data": "bad" }
+  ]
+}
