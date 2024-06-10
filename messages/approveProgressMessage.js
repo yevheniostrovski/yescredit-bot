@@ -1,6 +1,6 @@
 // approveNoMessage.js
 const generateOfferHandler = require('../handlers/generateOfferHandler');
-const User = require('../models/User'); // Предполагается, что есть модель User для работы с базой данных
+const User = require('../models/user'); // Предполагается, что есть модель User для работы с базой данных
 
 async function approveProgressMessage(callbackQuery, bot) {
     try {

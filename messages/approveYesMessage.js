@@ -1,5 +1,6 @@
 // approveYesMessage.js
 const generateOfferHandler = require('../handlers/generateOfferHandler');
+const User = require('../models/user');
 
 async function approveYesMessage(callbackQuery, bot) {
     try {

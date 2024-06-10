@@ -1,6 +1,6 @@
 // approveNoMessage.js
 const generateOfferHandler = require('../handlers/generateOfferHandler');
-const User = require('../models/User');
+const User = require('../models/user');
 
 async function approveNoMessage(callbackQuery, bot) {
     try {
