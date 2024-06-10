@@ -1,6 +1,6 @@
 // previousLoansHandler.js
 const TeleBot = require('telebot');
-const User = require('../models/User');
+const User = require('../models/user');
 
 async function askPreviousLoans(msg, bot) {
     try {
